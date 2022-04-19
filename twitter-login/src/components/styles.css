@@ -1,0 +1,43 @@
+header {
+  display: block;
+  width: 50%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+  border-radius: 10px;
+  box-shadow: -2px 41px 46px -13px rgba(122, 122, 122, 0.75);
+  position: relative;
+  bottom: 30px;
+}
+
+header img {
+  display: block;
+  position: relative;
+  left: 38%;
+  cursor: pointer;
+  width: 150px;
+  height: auto;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #000;
+  text-align: center;
+  font-weight: 800;
+  position: relative;
+  top: 10px;
+}
+
+p::before {
+  content: " slkdfk";
+  background-color: rgb(197, 197, 197);
+  width: 70%;
+  height: 2px;
+  color: #fff;
+  margin-top: 20px;
+  display: block;
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+  left: 15%;
+}
