@@ -11,7 +11,7 @@ export const FooterInputForm = () => {
       <button>Next</button>
       <input className="input-2" placeholder="Forgot Password?" type="text" />
       <span href="#">
-        Don't have an account <a href="#">Sign Up</a>{" "}
+        Don't have an account <a href="#">Sign Up</a>
       </span>
     </div>
   );
