@@ -28,14 +28,14 @@ import "./styles.css";
 // };
 
 /* way 3: {}, works*/
-export const InputForm = () => {
-  const iClasses = ["fab fa-apple", "fab fa-windows"];
-  const aContents = ["Sign in with Apple", "Sign in with Microsoft"];
+export const InputForm = ({iClasses, aContents}) => {
   return (
     <div className="input-form">
-     { aContents.map((aContent, index) => (
-        <a href="#"><i className={iClasses[index]}></i>{aContent}</a>
-
+      {aContents.map((aContent, index) => (
+        <a href="#" key = {index}>
+          <i className={iClasses[index]}></i>
+          {aContent}
+        </a>
       ))}
     </div>
   );

@@ -37,10 +37,12 @@ import { FooterInputForm } from "./footer-input-form/FooterInputForm.jsx";
 
 /* way 3: for {} , works*/
 export const Header = () => {
+  const iClasses = ["fab fa-apple", "fab fa-windows"];
+  const aContents = ["Sign in with Apple", "Sign in with Microsoft"];
   return (
     <header>
       <img src="./assets/logo.png" alt="Logo" />
-      <InputForm />
+      <InputForm aContents ={aContents} iClasses={iClasses}/>
       <p>or</p>
       <FooterInputForm />
     </header>
