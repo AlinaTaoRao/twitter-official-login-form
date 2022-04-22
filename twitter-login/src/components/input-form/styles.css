@@ -1,0 +1,32 @@
+header .input-form {
+    display: block;
+    position: relative;
+    left: 18%;
+  }
+  
+  .input-form a {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 650;
+    border: 1px solid rgb(214, 214, 214);
+    width: 60%;
+    padding: 10px 35px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+  }
+  
+  .input-form i {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  .fa-apple {
+    font-size: 1.3rem;
+  }
+  
+  .fa-windows {
+    color: #6a6af5;
+    font-size: 1.3rem;
+  }
