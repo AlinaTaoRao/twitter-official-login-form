@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/twitter-official-login-form/static/css/main.c94dcc9c.css",
+    "main.js": "/twitter-official-login-form/static/js/main.7a35c7fb.js",
+    "static/js/787.08a283f1.chunk.js": "/twitter-official-login-form/static/js/787.08a283f1.chunk.js",
+    "index.html": "/twitter-official-login-form/index.html",
+    "main.c94dcc9c.css.map": "/twitter-official-login-form/static/css/main.c94dcc9c.css.map",
+    "main.7a35c7fb.js.map": "/twitter-official-login-form/static/js/main.7a35c7fb.js.map",
+    "787.08a283f1.chunk.js.map": "/twitter-official-login-form/static/js/787.08a283f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c94dcc9c.css",
+    "static/js/main.7a35c7fb.js"
+  ]
+}
