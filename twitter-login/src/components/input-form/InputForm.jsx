@@ -16,27 +16,27 @@ import "./styles.css";
 
 /* way 2: props way , works, html element issue*/
 
-// export const InputForm = (props) => {
-//   return (
-//     <div className="input-form">
-//       <a href="#">
-//         <i className={props.class}></i>{props.content}
-//       </a>
-
-//     </div>
-//   );
-// };
-
-/* way 3: {}, works*/
-export const InputForm = ({iClasses, aContents}) => {
+export const InputForm = (props) => {
   return (
     <div className="input-form">
-      {aContents.map((aContent, index) => (
-        <a href="#" key = {index}>
-          <i className={iClasses[index]}></i>
-          {aContent}
-        </a>
-      ))}
+      <a href="#">
+        <i className={props.class}></i>{props.content}
+      </a>
+
     </div>
   );
 };
+
+/* way 3: {}, works*/
+// export const InputForm = ({iClasses, aContents}) => {
+//   return (
+//     <div className="input-form">
+//       {aContents.map((aContent, index) => (
+//         <a href="#" key = {index}>
+//           <i className={iClasses[index]}></i>
+//           {aContent}
+//         </a>
+//       ))}
+//     </div>
+//   );
+// };
